@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style/login.css">
+    <title>Qatra</title>
+</head>
+<body>
+
+    <button class="theme" id="modes" ><i class="fa-solid fa-moon moon"></i> <i class="fa-solid fa-sun sun "></i></button>
+
+    <div class="login">
+        <form id="login">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Name" name="name" id="name" >
+            <input type="email" placeholder="Email" name="Email" id="email">
+            <input type="password" placeholder="Password"  name="Password" id="password">
+            <button class="btn-login">login</button>
+        </form>
+        <div
+      id="g_id_onload"
+      data-auto_prompt="false"
+      data-callback="handleCredentialResponse"
+      data-client_id="PUT_YOUR_WEB_CLIENT_ID_HERE"
+        ></div>
+        <div class="g_id_signin"></div>
+    </div>
+
+
+</body>
+<script src="js/login.js" ></script>
+<script src="https://accounts.google.com/gsi/client" async></script>
+</html>

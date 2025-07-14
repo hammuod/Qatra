@@ -160,7 +160,7 @@
 .login:hover {
     background-color: var(--background-bloe);
     color: var(--background-hover);
-    transition: 2s;
+    transition: 1s;
 }
 
 .btn-main {
