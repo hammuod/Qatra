@@ -54,6 +54,26 @@
     color: var(--text-color);
 }
 
+.search-div {
+  display: flex;
+  align-items: center;
+  margin: 0px 60px;
+}
+
+.search {
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+.magnifying {
+  font-size: 20px;
+  color: var(--text-color);
+}
+
+.magnifying:hover {
+  cursor: pointer;
+}
+
 .title-main {
   font-size: 2.6em;
   font-weight: 700;
@@ -74,7 +94,6 @@
     border-radius: 20px;
     background-color: var(--background-2);
     animation: grow 1s forwards;
-
 }
 
 .nav-link:hover {
@@ -161,6 +180,11 @@
     background-color: var(--background-bloe);
     color: var(--background-hover);
     transition: 1s;
+}
+
+.btn-i {
+  background: var(--background-shafaf);
+  border: var(--background-shafaf);
 }
 
 .btn-main {
